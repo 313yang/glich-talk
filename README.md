@@ -1,3 +1,3 @@
-# KoKoa Clone 2021 Update
+# Glich Talk
 
 HTML & css got so much better
