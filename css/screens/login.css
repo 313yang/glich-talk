@@ -29,25 +29,24 @@
 #login-form {
     display: flex;
     flex-direction: column;
-    margin: 0px 30px;
+    margin: 0px 50px;
 }
 
 
 #login-form input {
     border: none;
-    border-radius: 30px;
     padding: 15px 0px;
     font-size: 18px;
-    margin-bottom: 25px;
-    background-color:  rgba(19, 16, 39, 0.0);
+    margin-bottom: 30px;
     color: white;
     padding: 15px;
+    font-family: 'NeoDunggeunmo';
     
 }
 #login-form input:not([type="submit"]) {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.0);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    background-color:  rgba(19, 16, 39, 0.0);
     transition: border-color 0.3s ease-in-out;
-  
 }
 #login-form input::placeholder {
     color: rgba(255, 255, 255, 0.8);
@@ -55,7 +54,7 @@
 }
 
 #login-form input:focus {
-    border-color:var(--pink);
+    border-color:var(--login__purple);
 }
 #login-form input[type="submit"] {
     background-color: rgba(151, 0, 238, 0.8);
@@ -71,11 +70,11 @@
     font-size: 14px;
 }
 #login-form a:focus {
-    color:#f588ff ;
+    color :var(--login__purple);
     transition: color 0.3s ease-in-out;
 }
 #login-form input[type="submit"]:focus {
-    color:#f588ff ;
-    transition: color 0.3s ease-in-out;
+    color: #2f005a ;
+    transition: color 0.2s ease-in-out;
 
 }
