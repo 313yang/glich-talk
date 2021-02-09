@@ -1,18 +1,19 @@
 .nav {
-    background-color: #ffe3f4;
+    background-color: #140287;
     padding: 20px 50px;
-    border-top: 1px solid rgba(255, 0, 55, 0.1);
+    border-top: 1px solid rgba(0, 9, 128, 0.1);
     position: fixed;
     bottom: 0;
     width: 100%;
     box-sizing: border-box;
 }
+
 .nav__list {
   display: flex;
   justify-content: space-between;
 }
 .nav__link {
-    color: #2e363e;
+  
     position: relative;
 }
 
@@ -63,7 +64,14 @@
 .nav__btn:last-child {
     animation-delay: 0.8s;
 }
-
+img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+ }
+.nav__btn:nth-child(2) img {
+     position: relative;
+ }
 .nav__dot {
     background-color: tomato;
     width: 5px;
@@ -71,8 +79,8 @@
     border-radius: 50%;
     display: flex;
     position: absolute;
-    left: 30px;
-    bottom:30px;
+    left: 60px;
+    bottom:60px;
 }
 .cog i {
     position: relative;

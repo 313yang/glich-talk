@@ -2,7 +2,7 @@
     position: fixed;
     width: 100%;
     height: 100%;
-    background-image: url(../../img/chatroomBgImage@3x.png);
+    background-image: url(../../img/main-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -13,14 +13,15 @@
 #friends-display-link {
     text-align: center;
     display: block;
-    background-color: #fafafa;
+    background-color: var(--indigo);
     padding: 15px 0;
     font-size: 18px;
     margin-bottom: 10px;
     margin-top: -15px;
 }
 #friends-display-link i{
-    color: rgba(0, 0, 0, 0.3);
+    color: rgba(236, 227, 255, 0.6);
+   
 }
 
 .friends-screen {
@@ -31,6 +32,7 @@
     margin-top: 25px;
     border-top: var(--main-border);
     padding-top:  15px;
+    color: rgba(236, 227, 255, 0.6);
 }
 .friends-screen__channer-header {
     margin-bottom: 30px;
@@ -38,7 +40,7 @@
     justify-content: space-between;
     color: var(--font-color);
 }
-
+/*
 @keyframes hidesplashscreen {
     from {
         opacity: 1;
@@ -50,7 +52,7 @@
 }
 
 #splash-screen {
-    background-color: var(--pink);
+    background-color: var(--indigo);
     position: absolute;
     height: 100vh;
     width: 100vw;
@@ -63,3 +65,4 @@
     animation-delay: 1.3s;
 }
 
+*/
