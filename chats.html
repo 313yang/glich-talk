@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+    <link rel="stylesheet" type="text/css" href="./XEIcon/xeicon.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +10,16 @@
 <body>
     <div class="status-bar">
         <div class="status-bar__column">
-            <span>No Service</span>
-            <i class="fas fa-wifi"></i>
+            <span>ANYCALL</span>
+            <i class="xi-wifi"></i>
         </div>
         <div class="status-bar__column">
-            <span>18:43</span>
+            <span>3:13</span>
         </div>
         <div class="status-bar__column">
-            <span>110%</span>
-            <i class="fas fa-battery-full"></i>
-            <i class="fas fa-bolt"></i>
+            <span>27%</span>
+            <i class="xi-battery-20"></i>
+            <i class="xi-lightning"></i>
         </div>
     </div>
 
@@ -37,9 +38,9 @@
             <a href="chat.html">
             <div class="user-component__chat">
                 <div class="user-component__column">
-                    <img src="https://github.com/yangbreoll/kokoa-clone/blob/master/css/%EC%A0%9C%EB%AA%A9%20%EC%97%86%EC%9D%8C-1.jpg?raw=trueg" class="user-component-avatar user-component-avatar" />
+                    <img src="./img/3.jpg" class="user-component-avatar user-component-avatar" />
                     <div class="user-component__text">
-                        <h4 class="user-component__title">Yang_Byeoll</h4>
+                        <h4 class="user-component__title">yang</h4>
                         <h6 class="user-component__subtitle">나는 나다</h6>
                     </div>
                 </div>
@@ -55,7 +56,7 @@
                 <div class="user-component__column">
                     <img src="https://github.com/yangbreoll/kokoa-clone/blob/master/img/1.jpg?raw=true" class="user-component-avatar user-component-avatar" />
                     <div class="user-component__text">
-                        <h4 class="user-component__title">여민요민</h4>
+                        <h4 class="user-component__title">min_j</h4>
                         <h6 class="user-component__subtitle">낼은 공부하자..</h6>
                     </div>
                 </div>
@@ -81,22 +82,24 @@
         </main>
 
 
-    <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__btn" >
-                <a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a></li>
-            <li class="nav__btn"> 
-                <a class="nav__link" href="chats.html">
-                    <span class="nav__notification badge">9</span>
-                    <i class="fas fa-comment fa-2x"></i></a></li>
-            <li class="nav__btn">
-                <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
-            <li class="nav__btn">
-                <a class="nav__link" href="more.html">
-                    <span class="nav__dot"></span>
-                    <i class="fas fa-ellipsis-h fa-2x"></i></a></li>
-        </ul>
-    </nav>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__btn" >
+                    <a class="nav__link" href="friends.html">
+                        <img src="./img/maintabIcoFriendsSelected@3x.png"  ></a></li>
+                <li class="nav__btn"> 
+                    <a class="nav__link" href="chats.html">
+                        <span class="nav__notification badge">9</span>
+                        <img src="./img/maintabIcoChats@3x.png"  ></a></li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="find.html"><img src="./img/maintabIcoMore@3x.png"></a></li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="more.html">
+                        <span class="nav__dot"></span>
+                        <img src="./img/maintabIcoBrowse@3x.png"  > </a></li>
+            </ul>
+        </nav>
+    <div class="bg"></div>
     <div id="no-mobile">
         <span>ERROR!!<br>
         😥 ONLY MOBILE SIZE 😥</span>

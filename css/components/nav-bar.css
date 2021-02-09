@@ -7,20 +7,24 @@
     width: 100%;
     box-sizing: border-box;
 }
-
+img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+ }
 .nav__list {
   display: flex;
   justify-content: space-between;
 }
 .nav__link {
-  
     position: relative;
 }
 
 .nav__notification {
     position: absolute;
-    left: 17px;
-    bottom: 17px;
+    left: 40px;
+    bottom: 30px;
+    z-index: 1;
     animation: notificationanimation 2s ease-in-out infinite;
 }
 
@@ -64,13 +68,15 @@
 .nav__btn:last-child {
     animation-delay: 0.8s;
 }
-img {
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
- }
+
 .nav__btn:nth-child(2) img {
      position: relative;
+ }
+ .user-component__column__music-bar {
+     
+     padding: 7px;
+     border: var(--main-border);
+     border-radius: 10px;
  }
 .nav__dot {
     background-color: tomato;
@@ -79,8 +85,8 @@ img {
     border-radius: 50%;
     display: flex;
     position: absolute;
-    left: 60px;
-    bottom:60px;
+    left: 50px;
+    bottom:50px;
 }
 .cog i {
     position: relative;
@@ -93,6 +99,6 @@ img {
     display: flex;
     position: absolute;
     right: 15px;
-    top: 40px;
+    top: 50px;
 
 }
