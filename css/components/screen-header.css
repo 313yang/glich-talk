@@ -23,6 +23,6 @@
     }
 }
 
-.screen-header__icons .fa-cog:hover {
+.screen-header__icons .xi-cog:hover {
     animation: rotatecog 2s linear infinite;
 }
