@@ -66,6 +66,7 @@
     align-items: flex-end;
 }
 .message__bubble {
+    color: #000000;
     background-color: white;
     padding: 13px;
     font-size: 17px;
@@ -83,7 +84,7 @@
     justify-content: flex-end;
 }
 .message-row--own .message__bubble {
-    background-color: #c78cd3;
+    background-color: #5b00ee;
     border-top-right-radius: 0px;
     border-top-left-radius: 15px;
     color: white;
@@ -140,7 +141,7 @@
    
 }
 .reply__column:last-child button {
-    background-color:  #c78cd3;
+    background-color:  #5b00ee;
     border: none;
     width: 30px;
     height: 30px;

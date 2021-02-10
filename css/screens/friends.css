@@ -3,7 +3,7 @@
 #friends-display-link {
     text-align: center;
     display: block;
-    background-color: var(--indigo);
+    background-color: rgba(20, 2, 135, 0.6);
     padding: 15px 0;
     font-size: 18px;
     margin-bottom: 10px;
