@@ -1,7 +1,7 @@
 :root {
-    --indigo:#140287;
+    --indigo:#0D0487;
     --horizontal-space: 25px;
-    --main-border: 1px solid  rgba(236, 227, 255, 0.5);
+    --main-border: 1px solid  rgba(229, 227, 255, 0.5);
     --font-color: rgba(255, 255, 255, 0.9);
-    --login__purple: rgba(151, 0, 238, 0.8);
+    --login__purple: rgba(91, 0, 238, 0.8);
 }
