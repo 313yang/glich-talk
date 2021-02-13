@@ -51,3 +51,9 @@
     margin-bottom: 10px;
     display: block;
 }
+.user-component__column__music-bar {
+     
+    padding: 7px 20px;
+    border: var(--main-border);
+    border-radius: 10px;
+}

@@ -72,12 +72,7 @@ img {
 .nav__btn:nth-child(2) img {
      position: relative;
  }
- .user-component__column__music-bar {
-     
-     padding: 7px;
-     border: var(--main-border);
-     border-radius: 10px;
- }
+
 .nav__dot {
     background-color: tomato;
     width: 5px;
