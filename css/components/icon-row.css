@@ -1,7 +1,6 @@
 .icon-row {
     display: flex;
     flex-wrap: wrap;
-
     padding-bottom: 25px;
 }
 
@@ -17,7 +16,6 @@
 
 .icon-row__icon i {
     font-size: 45px;
-    opacity: 90%;
 }
 
 .icon-row__icon span {

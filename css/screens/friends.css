@@ -3,7 +3,7 @@
 #friends-display-link {
     text-align: center;
     display: block;
-    background-color: rgba(20, 2, 135, 0.6);
+    background-color: rgba(24, 0, 161, 0.6);
     padding: 15px 0;
     font-size: 18px;
     margin-bottom: 10px;
@@ -42,7 +42,7 @@
     justify-content: space-between;
     color: var(--font-color);
 }
-/*
+
 @keyframes hidesplashscreen {
     from {
         opacity: 1;
@@ -64,7 +64,6 @@
     align-items: center;
     font-size: 120px;
     animation: hidesplashscreen 0.3s ease-in-out forwards;
-    animation-delay: 1.3s;
+    animation-delay: .8s;
 }
 
-*/

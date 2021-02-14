@@ -1,5 +1,5 @@
 .main-screen__find {
-    margin-bottom: 80px;
+    margin-bottom: 93px;
 }
 .recommended-friends {
     margin: 25px 0;
@@ -41,8 +41,8 @@
 
 
 .open-post__title {
-    font-weight: 600;
     margin-bottom: 10px;
+    font-size: 18px;
 }
 .open-post__hashtags {
     text-transform: uppercase;
