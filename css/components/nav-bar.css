@@ -8,8 +8,8 @@
     box-sizing: border-box;
 }
 img {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     object-fit: cover;
  }
 .nav__list {
@@ -22,8 +22,8 @@ img {
 
 .nav__notification {
     position: absolute;
-    left: 40px;
-    bottom: 30px;
+    left: 30px;
+    bottom: 20px;
     z-index: 1;
     animation: notificationanimation 2s ease-in-out infinite;
 }
@@ -80,8 +80,8 @@ img {
     border-radius: 50%;
     display: flex;
     position: absolute;
-    left: 50px;
-    bottom:50px;
+    left: 40px;
+    bottom:40px;
 }
 .cog i {
     position: relative;
